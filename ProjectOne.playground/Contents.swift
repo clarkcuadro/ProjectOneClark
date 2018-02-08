@@ -4,18 +4,57 @@ import UIKit
 
 var str = "Hello, playground"
 
-//:Variable Coding Challenge #1
+//Variable Coding Challenge #1
 
-import UIKit
+var firstString = "firstString"
 
-var str = "firstString"
+let name = "secondString"
 
-var myFirstVariable:  String
-myFirstVariable = "I've created my first string"
+var thirdString = "firstString + secondString"
 
-//We're going to do something with strings
-var mySecondVariable = "and I've added two strings together"
+print("firstString + secondString")
+
+//Variable Coding Challenge #2
+
+let mycelsius: Float
+
+let myfahrenheit: Float = 50
+
+let float = 10
+
+var celsius = "float + 10"
+
+let greeting = "Today is is 10 degrees celsius"
 
 
-var myThirdVariable = myFirstVariable + mySecondVariable
-print(myThirdVariable)
+//Boolean Variables Coding Challenge #1
+
+
+var numberOne = 1
+var numberTwo = 2
+var numberThree = numberOne == numberTwo
+
+
+
+//If statement Coding Challenge #1
+
+let one = true
+
+if one {
+    print("ok")
+}
+else {
+    print("mahalo")
+}
+
+
+//String literal
+let s = "yo"
+
+// Get the length of the string
+
+let length = s.characters.count
+print(length)
+
+
+
