@@ -22,7 +22,7 @@ let myfahrenheit: Float = 50
 
 let float = 10
 
-var celsius = "float + 10"
+mycelsius = (myfahrenheit-32) * (5/9)
 
 let greeting = "Today is is 10 degrees celsius"
 
@@ -38,23 +38,22 @@ var numberThree = numberOne == numberTwo
 
 //If statement Coding Challenge #1
 
-let one = true
+var goodGrade = "I've been doing all my work"
+var secondString = "I've been doing all my homework too"
 
-if one {
-    print("ok")
+
+
+if goodGrade.count > secondString.count
+
+{ print ("I should be getting an A")
+    
 }
-else {
-    print("mahalo")
+
+else
+
+{ print ("I should be getting an F")
+    
 }
-
-
-//String literal
-let s = "yo"
-
-// Get the length of the string
-
-let length = s.characters.count
-print(length)
 
 
 
